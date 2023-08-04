@@ -1,0 +1,150 @@
+body{
+    
+    margin:0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+}
+
+.top_c{
+    /* 
+        IMP:-(16px = 100% = 1em = 1 rem)
+        em/rem: It represents with of 'M'(1em = width of 1'M')
+                ('r' represents root & does not depend on inheritance)
+        px-static
+        %-dynamic
+        em/rem-dynamic 
+    */
+    background-color: #EAC696;
+    width:100%;
+   height: 20%;
+
+   
+}
+
+.mid_c{
+    padding: 20px;
+    margin:0;
+    background-color: #EEEDED;
+   
+}
+
+.bottom_c{
+    background-color: #EAC696;
+    margin:0 0 1px 0;
+}
+
+.topc {
+    width: 11.875rem;
+    height: 10.625rem;
+     margin: 0 45% 0 65%;
+}
+
+.sunc {
+    width: 11.875rem;
+    height: 10.625rem;
+}
+
+.city {
+    height: 25rem;
+    margin: 0;
+}
+
+.lockc{
+    position: absolute;
+    top:2.6875rem;
+    left:19.25rem; 
+    width: 11.875rem;
+     height: 10.625rem;
+}
+
+.downc{
+    position: absolute;
+    top:20.6875rem;
+    left:67.25rem;
+    width: 11.875rem;
+     height: 10.625rem;
+}
+
+.botc{
+    position: absolute;
+    top:14.6875rem;
+    left:7.925rem; 
+    width: 11.875rem;
+     height: 10.625rem;
+}
+
+
+h1 { 
+    font-size:5.400rem;
+    margin: 0 auto;
+    font-family: 'Sacramento',cursive;
+}
+
+h2 { 
+    font-family: 'Montserrat',sans-serif;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat',sans-serif;
+}
+
+.profile {
+    margin:0;
+    height:145px;
+}
+
+h4{
+    font-weight: normal;
+}
+
+#1{
+    background-color: #e5406e;
+}
+
+#2{
+    background-color: #47e290;
+}
+
+#3{
+    background-color: #8ec2f3;
+}
+
+table {
+    text-align: left;
+    COLOR:#4682A9;
+}
+
+.cm{
+    color:#331D2C;
+    background-color: #91C8E4;
+    margin:0;
+    padding:50px;
+}
+
+.fm{
+    background-color: #D8D9DA;
+    margin:0;
+    padding:50px;
+}
+
+.ty{
+    background-color:#4682A9;
+    margin:0;
+    padding:34.5px;
+}
+
+hr.h {
+    background-color: #E1ECC8;
+      border-style: none;
+      border-top-style: dotted;
+      border-width:5px;
+      width:7%;
+      border-color:grey;
+}
+
+.socials{
+    margin:0;
+    height:50px;
+}

@@ -1,5 +1,6 @@
 body{
-    
+    width:auto;
+    height:auto;
     margin:0;
     text-align:center;
     font-family: 'Merriweather', serif;
@@ -14,8 +15,9 @@ body{
         %-dynamic
         em/rem-dynamic 
     */
+    margin:0;
+
     background-color: #EAC696;
-    width:100%;
    height: 20%;
 
    
@@ -51,24 +53,24 @@ body{
 
 .lockc{
     position: absolute;
-    top:2.6875rem;
-    left:19.25rem; 
+    top:20px; 
     width: 11.875rem;
      height: 10.625rem;
 }
 
 .downc{
-    position: absolute;
-    top:20.6875rem;
-    left:68.25rem;
+    position: relative;
+    left:750px;
+    bottom:258px;
+
     width: 11.875rem;
      height: 10.625rem;
 }
 
 .botc{
-    position: absolute;
-    top:14.6875rem;
-    left:7.925rem; 
+    position:absolute;
+    top: 259px;
+    left: 200px;
     width: 11.875rem;
      height: 10.625rem;
 }

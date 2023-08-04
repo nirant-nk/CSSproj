@@ -47,8 +47,8 @@ body{
 }
 
 .city {
-    height: 25rem;
-    margin: 0;
+    width:29%;
+ 
 }
 
 .lockc{
@@ -70,7 +70,7 @@ body{
 .botc{
     position:absolute;
     top: 259px;
-    left: 200px;
+    left: 69px;
     width: 11.875rem;
      height: 10.625rem;
 }

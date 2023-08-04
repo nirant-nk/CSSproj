@@ -34,48 +34,48 @@ body{
 }
 
 .topc {
-    width: 11.875rem;
-    height: 10.625rem;
+    width: 1187.5%;
+    height: 1062.5%;
      margin: 0 45% 0 65%;
 }
 
 .sunc {
-    width: 11.875rem;
-    height: 10.625rem;
+    width: 1187.5%;
+    height: 1062.5%;
 }
 
 .city {
-    height: 25rem;
+    height: 2500%;
     margin: 0;
 }
 
 .lockc{
     position: absolute;
-    top:2.6875rem;
-    left:19.25rem; 
-    width: 11.875rem;
-     height: 10.625rem;
+    top:268.75%;
+    left:1925%; 
+    width: 1187.5%;
+     height: 1062.5%;
 }
 
 .downc{
     position: absolute;
-    top:20.6875rem;
-    left:67.25rem;
-    width: 11.875rem;
-     height: 10.625rem;
+    top:2068.75%;
+    left:6725%;
+    width: 1187.5%;
+     height: 1062.5%;
 }
 
 .botc{
     position: absolute;
-    top:14.6875rem;
-    left:2.925rem; 
-    width: 11.875rem;
-     height: 10.625rem;
+    top:1468.75%;
+    left:292.5%; 
+    width: 1187.5%;
+     height: 1062.5%;
 }
 
 
 h1 { 
-    font-size:5.400rem;
+    font-size:540.0%;
     margin: 0 auto;
     font-family: 'Sacramento',cursive;
 }

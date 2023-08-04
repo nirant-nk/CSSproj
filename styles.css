@@ -34,48 +34,48 @@ body{
 }
 
 .topc {
-    width: 1187.5%;
-    height: 1062.5%;
+    width: 11.875rem;
+    height: 10.625rem;
      margin: 0 45% 0 65%;
 }
 
 .sunc {
-    width: 1187.5%;
-    height: 1062.5%;
+    width: 11.875rem;
+    height: 10.625rem;
 }
 
 .city {
-    height: 2500%;
+    height: 25rem;
     margin: 0;
 }
 
 .lockc{
     position: absolute;
-    top:268.75%;
-    left:1925%; 
-    width: 1187.5%;
-     height: 1062.5%;
+    top:2.6875rem;
+    left:19.25rem; 
+    width: 11.875rem;
+     height: 10.625rem;
 }
 
 .downc{
     position: absolute;
-    top:2068.75%;
-    left:6725%;
-    width: 1187.5%;
-     height: 1062.5%;
+    top:20.6875rem;
+    left:68.25rem;
+    width: 11.875rem;
+     height: 10.625rem;
 }
 
 .botc{
     position: absolute;
-    top:1468.75%;
-    left:292.5%; 
-    width: 1187.5%;
-     height: 1062.5%;
+    top:14.6875rem;
+    left:7.925rem; 
+    width: 11.875rem;
+     height: 10.625rem;
 }
 
 
 h1 { 
-    font-size:540.0%;
+    font-size:5.400rem;
     margin: 0 auto;
     font-family: 'Sacramento',cursive;
 }
@@ -117,7 +117,6 @@ table {
 }
 
 .cm{
-    width:100%;
     color:#331D2C;
     background-color: #91C8E4;
     margin:0;
@@ -125,14 +124,12 @@ table {
 }
 
 .fm{
-    width:100%;
     background-color: #D8D9DA;
     margin:0;
     padding:50px;
 }
 
 .ty{
-    width:100%;
     background-color:#4682A9;
     margin:0;
     padding:34.5px;

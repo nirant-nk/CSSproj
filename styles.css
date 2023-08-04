@@ -36,43 +36,45 @@ body{
 }
 
 .topc {
-    width: 11.875rem;
-    height: 10.625rem;
+    width:14%;
+    height: 2%;
      margin: 0 45% 0 65%;
 }
 
-.sunc {
-    width: 11.875rem;
-    height: 10.625rem;
+.sunc { margin:0;
+    width:12%;
+   
 }
 
 .city {
-    width:29%;
+    height:25%;
+    width:25%;
  
 }
 
 .lockc{
     position: absolute;
-    top:20px; 
-    width: 11.875rem;
-     height: 10.625rem;
+    top:7%; 
+    left: 27%;
+    width:11%;
+    
 }
 
 .downc{
-    position: relative;
-    left:750px;
-    bottom:258px;
+    position: absolute;
+    top:59%;
+    left: 80%;
 
-    width: 11.875rem;
-     height: 10.625rem;
+    width: 15%;
+   
 }
 
 .botc{
     position:absolute;
-    top: 259px;
-    left: 69px;
-    width: 11.875rem;
-     height: 10.625rem;
+    top: 50%;
+    left: 5%;
+    width:15%;
+   
 }
 
 

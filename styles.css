@@ -6,7 +6,7 @@ body{
     font-family: 'Merriweather', serif;
 }
 
-.top_c{
+.top_container{
     /* 
         IMP:-(16px = 100% = 1em = 1 rem)
         em/rem: It represents with of 'M'(1em = width of 1'M')
@@ -15,24 +15,26 @@ body{
         %-dynamic
         em/rem-dynamic 
     */
-    margin:0;
+   margin:0;
 
     background-color: #EAC696;
    height: 20%;
+   padding:40px;
 
    
 }
 
-.mid_c{
-    padding: 20px;
+.mid_container{
+    padding: 40px;
     margin:0;
     background-color: #EEEDED;
    
 }
 
-.bottom_c{
+.bottom_container{
     background-color: #EAC696;
-    margin:0 0 1px 0;
+    margin:0 0 1px 0 ;
+    padding:40px;
 }
 
 .topc {
@@ -41,45 +43,50 @@ body{
      margin: 0 45% 0 65%;
 }
 
-.sunc { margin:0;
+.sunc {
+    position: relative;
+    left:5%;
+    margin:0;
     width:12%;
    
 }
 
 .city {
+    position: relative;
+    right:15%;
     height:25%;
     width:25%;
  
 }
 
 .lockc{
-    position: absolute;
-    top:7%; 
-    left: 27%;
+    position: relative;
+    right:37%;
+   
     width:11%;
     
 }
 
 .downc{
-    position: absolute;
-    top:31%;
-    left: 80%;
-
+    position: relative;
+left: 58%;
+bottom:193px;
     width: 15%;
    
 }
 
 .botc{
-    position:absolute;
-    top: 29%;
-    left: 5%;
+    position:relative;
+    right:36%;
+    bottom:178px;
     width:15%;
    
 }
 
 
 h1 { 
-    font-size:5.400rem;
+    color:#273f52;
+    font-size:531%;
     margin: 0 auto;
     font-family: 'Sacramento',cursive;
 }
@@ -91,6 +98,7 @@ h2 {
 }
 
 h3 {
+    
     font-family: 'Montserrat',sans-serif;
 }
 
@@ -99,21 +107,29 @@ h3 {
     height:145px;
 }
 
+.prol{
+    float:left;
+    margin:0;
+    height:145px;
+   
+}
+
+.prof{
+  
+    margin:0;
+    height:145px;
+   
+}
+
+.midp{
+    
+    font-family: 'Montserrat',sans-serif;
+}
+
 h4{
     font-weight: normal;
 }
 
-#1{
-    background-color: #e5406e;
-}
-
-#2{
-    background-color: #47e290;
-}
-
-#3{
-    background-color: #8ec2f3;
-}
 
 table {
     text-align: left;
@@ -141,9 +157,9 @@ table {
 
 hr.h {
     background-color: #E1ECC8;
-      border-style: none;
+      border-style:none;
       border-top-style: dotted;
-      border-width:5px;
+      border-width:7px;
       width:7%;
       border-color:grey;
 }
@@ -152,3 +168,46 @@ hr.h {
     margin:0;
     height:50px;
 }
+
+.btn {
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #080008;
+    font-size: 20px;
+    background: #968751;
+    padding: 10px 20px 10px 20px;
+    border: solid #0f1d26 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #e4edf2;
+    background-image: -webkit-linear-gradient(top, #e4edf2, #9da0a3);
+    background-image: -moz-linear-gradient(top, #e4edf2, #9da0a3);
+    background-image: -ms-linear-gradient(top, #e4edf2, #9da0a3);
+    background-image: -o-linear-gradient(top, #e4edf2, #9da0a3);
+    background-image: linear-gradient(to bottom, #e4edf2, #9da0a3);
+    text-decoration: none;
+  }
+
+  .sm{
+
+    font-size: 13.3px;
+padding: 5px;
+text-decoration: none;
+  }
+
+a.links{
+   
+    margin: 5px;
+}
+
+.copyright{
+    color: #666667;
+    font-size: small;
+    padding:15px;
+    
+}
+
